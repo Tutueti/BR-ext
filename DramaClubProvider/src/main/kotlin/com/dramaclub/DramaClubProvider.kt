@@ -11,7 +11,7 @@ import org.jsoup.nodes.Element
 import java.net.URI
 import java.util.*
 import kotlin.collections.ArrayList
-#### FajerShow
+
 class DramaClub : MainAPI() {
     override var lang = "ar"
     override var mainUrl = "https://www.dramaclub.one/"
