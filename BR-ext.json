@@ -1,0 +1,8 @@
+{
+    "name": "Br extensions Repo (experimental)",
+    "description": "Brazilian Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/Tutueti/BR-ext/builds/plugins.json"
+    ]
+}
