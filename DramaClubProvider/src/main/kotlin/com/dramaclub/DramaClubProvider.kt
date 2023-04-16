@@ -164,7 +164,7 @@ class DramaClub : MainAPI() {
                     "nume" to source.attr("data-nume"),
                     "type" to source.attr("data-type")
                 )
-            ).document.select("iframe").attr("src").let {
+            ).document.select("#source-player-1 iframe").attr("src").let {
                 val hostname = URI(it).host
                 if (it.contains("dramaclub.one")) {
                     val url = URI(it)
