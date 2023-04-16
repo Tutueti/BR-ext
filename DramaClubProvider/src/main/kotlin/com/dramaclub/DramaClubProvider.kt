@@ -13,7 +13,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 class DramaClub : MainAPI() {
-    override var lang = "ar"
+    override var lang = "pt"
     override var mainUrl = "https://www.dramaclub.one/"
     override var name = "DramaClub"
     override val usesWebView = false
