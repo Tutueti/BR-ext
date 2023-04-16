@@ -166,7 +166,7 @@ class DramaClub : MainAPI() {
                 )
             ).document.select("iframe").attr("src").let {
                 val hostname = URI(it).host
-                if (it.contains("dramaclub.one")) {
+                if (it.contains("www.dramaclub.one")) {
                     val url = URI(it)
                     callback.invoke(
                         ExtractorLink(
@@ -175,7 +175,7 @@ class DramaClub : MainAPI() {
                             url.query.replace("&.*|source=".toRegex(), ""),
                             data,
                             Qualities.Unknown.value,
-                            url.query.replace("&.*|source=".toRegex(), "").contains(".m3u8")
+                            url.query.replace("&.*|source=".toRegex(), "").contains(".mp4")
                         )
                     )
                     println("Drama\n" + url.query.replace("&.*|source=".toRegex(), "") + "\n")
