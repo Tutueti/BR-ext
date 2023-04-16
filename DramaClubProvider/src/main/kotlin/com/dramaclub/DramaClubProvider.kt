@@ -166,7 +166,7 @@ class DramaClub : MainAPI() {
                 )
             ).document.select("iframe").attr("src").let {
                 val hostname = URI(it).host
-                if (it.contains("www.dramaclub.one")) {
+                if (it.contains("dramaclub.one")) {
                     val url = URI(it)
                     callback.invoke(
                         ExtractorLink(
