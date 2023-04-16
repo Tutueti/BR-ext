@@ -155,7 +155,7 @@ class DramaClub : MainAPI() {
         callback: (ExtractorLink) -> Unit
     ): Boolean {
         val doc = app.get(data).document
-        doc.select("li.vid_source_option").not("[data-nume=\"trailer\"]").apmap { source ->
+        doc.select("li.dooplay_player_option").not("[data-nume=\"trailer\"]").apmap { source ->
             app.post(
                 "$mainUrl/wp-admin/admin-ajax.php",
                 data = mapOf(
@@ -175,7 +175,7 @@ class DramaClub : MainAPI() {
                             url.query.replace("&.*|source=".toRegex(), ""),
                             data,
                             Qualities.Unknown.value,
-                            url.query.replace("&.*|source=".toRegex(), "").contains(".mp4")
+                            url.query.replace("&.*|source=".toRegex(), "").contains(".m3u8")
                         )
                     )
                     println("Drama\n" + url.query.replace("&.*|source=".toRegex(), "") + "\n")
