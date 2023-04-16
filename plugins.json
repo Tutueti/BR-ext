@@ -1,0 +1,43 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://www.dramaclub.one&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/BR-ext",
+        "fileSize": 15589,
+        "status": 1,
+        "language": "pt",
+        "authors": [
+            "Experimental"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "AsianDrama"
+        ],
+        "version": 3,
+        "internalName": "DramaClubProvider",
+        "url": "https://raw.githubusercontent.com/Tutueti/BR-ext/builds/DramaClubProvider.cs3",
+        "name": "DramaClubProvider"
+    },
+    {
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/BR-ext",
+        "fileSize": 19921,
+        "status": 1,
+        "language": "pt",
+        "authors": [
+            "Experimental"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "version": 1,
+        "internalName": "Extractors",
+        "description": "This is required to be downloaded.",
+        "url": "https://raw.githubusercontent.com/Tutueti/BR-ext/builds/Extractors.cs3",
+        "name": "Extractors"
+    }
+]
