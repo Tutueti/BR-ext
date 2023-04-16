@@ -1,1 +1,3 @@
-# Arabic providers repository for CloudStream
+# BR extensions
+
+Heavily based on other extensions, by ImZaw
